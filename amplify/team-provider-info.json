@@ -10,6 +10,19 @@
       "StackName": "amplify-imggenerator-dev-193407",
       "StackId": "arn:aws:cloudformation:us-east-1:522332517937:stack/amplify-imggenerator-dev-193407/abff1730-82f6-11ec-be66-121c5b12bc97",
       "AmplifyAppId": "d2h1hbjxogbuob"
+    },
+    "categories": {
+      "auth": {
+        "imggenerator7bceac22": {},
+        "true": {},
+        "imggenerator7aab9b8d": {}
+      },
+      "function": {
+        "S3Trigger54cc6475": {
+          "deploymentBucketName": "amplify-imggenerator-dev-193407-deployment",
+          "s3Key": "amplify-builds/S3Trigger54cc6475-53696764374a4e55586a-build.zip"
+        }
+      }
     }
   }
 }
