@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-imggenerator-dev-193407-authRole",
+      "UnauthRoleArn": "arn:aws:iam::522332517937:role/amplify-imggenerator-dev-193407-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::522332517937:role/amplify-imggenerator-dev-193407-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-imggenerator-dev-193407-deployment",
+      "UnauthRoleName": "amplify-imggenerator-dev-193407-unauthRole",
+      "StackName": "amplify-imggenerator-dev-193407",
+      "StackId": "arn:aws:cloudformation:us-east-1:522332517937:stack/amplify-imggenerator-dev-193407/abff1730-82f6-11ec-be66-121c5b12bc97",
+      "AmplifyAppId": "d2h1hbjxogbuob"
+    }
+  }
+}
