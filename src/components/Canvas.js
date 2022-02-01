@@ -40,7 +40,7 @@ export function Canvas() {
 
     const fetchPhotos = async () => {
         try {
-            const photosData = await API.graphql({ query: queries.listPhotos });
+            const photosData = await API.graphql({ query: queries.listPhotodata });
             console.log("PHOTOS: ", photosData)
         } catch (e) {
             console.log("Error: ", e)

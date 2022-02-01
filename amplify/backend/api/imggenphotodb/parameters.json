@@ -1,5 +1,0 @@
-{
-  "AppSyncApiName": "imggenphotodb",
-  "DynamoDBBillingMode": "PAY_PER_REQUEST",
-  "DynamoDBEnableServerSideEncryption": false
-}

@@ -1,46 +1,46 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const createPhotos = /* GraphQL */ `
-  mutation CreatePhotos(
-    $input: CreatePhotosInput!
-    $condition: ModelPhotosConditionInput
+export const createPhotodata = /* GraphQL */ `
+  mutation CreatePhotodata(
+    $input: CreatePhotodataInput!
+    $condition: ModelPhotodataConditionInput
   ) {
-    createPhotos(input: $input, condition: $condition) {
+    createPhotodata(input: $input, condition: $condition) {
       id
-      type
-      img
       url
+      type
+      image
       createdAt
       updatedAt
     }
   }
 `;
-export const updatePhotos = /* GraphQL */ `
-  mutation UpdatePhotos(
-    $input: UpdatePhotosInput!
-    $condition: ModelPhotosConditionInput
+export const updatePhotodata = /* GraphQL */ `
+  mutation UpdatePhotodata(
+    $input: UpdatePhotodataInput!
+    $condition: ModelPhotodataConditionInput
   ) {
-    updatePhotos(input: $input, condition: $condition) {
+    updatePhotodata(input: $input, condition: $condition) {
       id
-      type
-      img
       url
+      type
+      image
       createdAt
       updatedAt
     }
   }
 `;
-export const deletePhotos = /* GraphQL */ `
-  mutation DeletePhotos(
-    $input: DeletePhotosInput!
-    $condition: ModelPhotosConditionInput
+export const deletePhotodata = /* GraphQL */ `
+  mutation DeletePhotodata(
+    $input: DeletePhotodataInput!
+    $condition: ModelPhotodataConditionInput
   ) {
-    deletePhotos(input: $input, condition: $condition) {
+    deletePhotodata(input: $input, condition: $condition) {
       id
-      type
-      img
       url
+      type
+      image
       createdAt
       updatedAt
     }

@@ -1,37 +1,37 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const onCreatePhotos = /* GraphQL */ `
-  subscription OnCreatePhotos {
-    onCreatePhotos {
+export const onCreatePhotodata = /* GraphQL */ `
+  subscription OnCreatePhotodata {
+    onCreatePhotodata {
       id
-      type
-      img
       url
+      type
+      image
       createdAt
       updatedAt
     }
   }
 `;
-export const onUpdatePhotos = /* GraphQL */ `
-  subscription OnUpdatePhotos {
-    onUpdatePhotos {
+export const onUpdatePhotodata = /* GraphQL */ `
+  subscription OnUpdatePhotodata {
+    onUpdatePhotodata {
       id
-      type
-      img
       url
+      type
+      image
       createdAt
       updatedAt
     }
   }
 `;
-export const onDeletePhotos = /* GraphQL */ `
-  subscription OnDeletePhotos {
-    onDeletePhotos {
+export const onDeletePhotodata = /* GraphQL */ `
+  subscription OnDeletePhotodata {
+    onDeletePhotodata {
       id
-      type
-      img
       url
+      type
+      image
       createdAt
       updatedAt
     }
