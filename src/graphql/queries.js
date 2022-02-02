@@ -1,30 +1,30 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const getPhotodata = /* GraphQL */ `
-  query GetPhotodata($id: ID!) {
-    getPhotodata(id: $id) {
+export const getPhoto = /* GraphQL */ `
+  query GetPhoto($id: ID!) {
+    getPhoto(id: $id) {
       id
       url
       type
-      image
+      img
       createdAt
       updatedAt
     }
   }
 `;
-export const listPhotodata = /* GraphQL */ `
-  query ListPhotodata(
-    $filter: ModelPhotodataFilterInput
+export const listPhotos = /* GraphQL */ `
+  query ListPhotos(
+    $filter: ModelPhotoFilterInput
     $limit: Int
     $nextToken: String
   ) {
-    listPhotodata(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    listPhotos(filter: $filter, limit: $limit, nextToken: $nextToken) {
       items {
         id
         url
         type
-        image
+        img
         createdAt
         updatedAt
       }

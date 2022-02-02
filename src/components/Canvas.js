@@ -21,6 +21,7 @@ import {
 import head from "../img/head.png"
 import useImage from 'use-image';
 import * as queries from '../graphql/queries';
+Amplify.configure(awsExports);
 
 export function Canvas() {
 
@@ -40,7 +41,7 @@ export function Canvas() {
 
     const fetchPhotos = async () => {
         try {
-            const photosData = await API.graphql({ query: queries.listPhotodata });
+            const photosData = await API.graphql({ query: queries.listPhotos });
             console.log("PHOTOS: ", photosData)
         } catch (e) {
             console.log("Error: ", e)

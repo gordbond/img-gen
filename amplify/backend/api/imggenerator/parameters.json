@@ -1,0 +1,6 @@
+{
+  "AppSyncApiName": "imggenerator",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2022-02-02T02:33:22.441Z"
+}

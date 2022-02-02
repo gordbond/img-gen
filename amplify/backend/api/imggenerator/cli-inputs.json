@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "imggenerator",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/gordbond/local_docs/art_projects/img_gen/img-gen/amplify/backend/api/imggenerator/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7,
+      "apiKeyExpirationDate": "2022-02-09T02:35:09.181Z",
+      "keyDescription": "New key for photo data"
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": []
+  }
+}
